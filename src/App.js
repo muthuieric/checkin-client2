@@ -18,7 +18,7 @@ function App() {
     <Router>
       <div className='font-roboto'>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/checkin-client2" element={<Home />} />
           <Route path="/register" element={<RegistrationForm />} />
           <Route path="/login" element={<Login />} />
 
