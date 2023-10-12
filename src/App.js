@@ -18,9 +18,9 @@ function App() {
     <Router>
       <div className='font-roboto'>
         <Routes>
-          {/* <Route path="/checkin-client2" element={<Home />} />
+          <Route path="/checkin-client2" element={<Home />} />
           <Route path="/register" element={<RegistrationForm />} />
-          <Route path="/login" element={<Login />} /> */}
+          <Route path="/login" element={<Login />} />
 
           <Route path="/students" element={<StudentListing />} />
           <Route path='/add-student' element={<AddStudentForm />} />
@@ -29,7 +29,7 @@ function App() {
           <Route path="/tms" element={<TmListing />} />
           <Route path='/add-tm' element={<AddTmForm />} />
           <Route path='/tms/:id' element={<EditTmForm />} />
-          <Route path='/checkin-client2/dashboard' element={<Dashboard />} />
+          <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/checkin' element={<CheckInListing />} />
           <Route path="/checkin/:id" element={<EditCheckInForm />} />
         </Routes>
