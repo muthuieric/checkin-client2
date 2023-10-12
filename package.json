@@ -2,7 +2,7 @@
   "name": "checkin-client2",
   "homepage": "http://muthuieric.github.io/checkin-client2",
   "version": "0.1.0",
-  "proxy":"http://localhost:8000/",
+  "proxy":"https://checkin-system-47hr.onrender.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
