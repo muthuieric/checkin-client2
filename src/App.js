@@ -6,9 +6,9 @@ import EditCheckInForm from './components/CheckIn/EditCheckInForm';
 import TmListing from './components/Tms/TmListing';
 import AddTmForm from './components/Tms/AddTmForm';
 import EditTmForm from './components/Tms/EditTm';
-// import Home from './components/Login/HomePage';
-// import RegistrationForm from './components/Login/RegistrationForm';
-// import Login from './components/Login/LoginForm';
+import Home from './components/Login/HomePage';
+import RegistrationForm from './components/Login/RegistrationForm';
+import Login from './components/Login/LoginForm';
 import AddStudentForm from './components/Students/AddStudent';
 import StudentListing from './components/Students/StudentListing';
 import EditStudentForm from './components/Students/EditStudent';
@@ -18,9 +18,9 @@ function App() {
     <Router>
       <div className='font-roboto'>
         <Routes>
-          {/* <Route path="/checkin-client2" element={<Home />} />
+          <Route path="/checkin-client2" element={<Home />} />
           <Route path="/register" element={<RegistrationForm />} />
-          <Route path="/login" element={<Login />} /> */}
+          <Route path="/login" element={<Login />} />
 
           <Route path="/students" element={<StudentListing />} />
           <Route path='/add-student' element={<AddStudentForm />} />
