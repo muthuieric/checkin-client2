@@ -44,6 +44,17 @@ const RegistrationForm = () => {
     }
   };
 
+  const headers = {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${123456}` // Include the JWT token
+  };
+  
+  fetch('/protected', {
+    method: 'GET',
+    headers: headers,
+  });
+  
+
   const formik = useFormik({
     initialValues: {
       Name: "",
