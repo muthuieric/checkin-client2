@@ -29,7 +29,7 @@ function App() {
           <Route path="/tms" element={<TmListing />} />
           <Route path='/add-tm' element={<AddTmForm />} />
           <Route path='/tms/:id' element={<EditTmForm />} />
-          <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/checkin-client2/dashboard' element={<Dashboard />} />
           <Route path='/checkin' element={<CheckInListing />} />
           <Route path="/checkin/:id" element={<EditCheckInForm />} />
         </Routes>
