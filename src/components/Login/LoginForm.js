@@ -10,7 +10,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('/login', {
+      const response = await fetch('http://muthuieric.github.io/checkin-client2/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -31,7 +31,7 @@ const Login = () => {
         //   'Authorization': `Bearer ${token}`,
         // };
   
-        // Example: Fetch a protected route
+        // // Example: Fetch a protected route
         // const protectedRouteResponse = await fetch('/protected-route', {
         //   method: 'GET',
         //   headers: headers,

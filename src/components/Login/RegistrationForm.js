@@ -22,7 +22,7 @@ const RegistrationForm = () => {
 
   const onSubmit = async (values) => {
     try {
-      const response = await fetch("/register", {
+      const response = await fetch("http://muthuieric.github.io/checkin-client2/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -34,7 +34,7 @@ const RegistrationForm = () => {
         const responseData = await response.json();
         console.log("Registration successful:", responseData);
         // Optionally, you can redirect to the login page
-        navigate("/login");
+        navigate("http://muthuieric.github.io/checkin-client2/login");
       } else {
         const errorData = await response.json();
         console.error("Registration failed:", errorData);
@@ -44,16 +44,6 @@ const RegistrationForm = () => {
     }
   };
 
-  const headers = {
-    'Content-Type': 'application/json',
-    'Authorization': `Bearer ${123456}` // Include the JWT token
-  };
-  
-  fetch('/protected', {
-    method: 'GET',
-    headers: headers,
-  });
-  
 
   const formik = useFormik({
     initialValues: {
