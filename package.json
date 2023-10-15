@@ -1,6 +1,6 @@
 {
   "name": "checkin-client2",
-  "homepage": "http://muthuieric.github.io/checkin-client2",
+  "homepage": "https://muthuieric.github.io/checkin-client2",
   "version": "0.1.0",
   "proxy":"https://checkin-system-47hr.onrender.com",
   "private": true,
